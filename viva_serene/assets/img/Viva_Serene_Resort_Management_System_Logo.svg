@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B4660"/>
+      <stop offset="1" stop-color="#0E7896"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E7896"/>
+      <stop offset="1" stop-color="#2FA4BA"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D99A22"/>
+      <stop offset="1" stop-color="#F2BE45"/>
+    </linearGradient>
+    <style>
+      .serif { font-family: Georgia, "Times New Roman", serif; }
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .italic { font-family: Georgia, "Times New Roman", serif; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Transparent logo canvas -->
+
+  <!-- Sun -->
+  <path d="M385 343 A205 205 0 0 1 795 343"
+        fill="none" stroke="url(#gold)" stroke-width="22"
+        stroke-linecap="round"/>
+
+  <!-- Palm trunk -->
+  <path d="M760 430 C785 378 792 323 779 263"
+        fill="none" stroke="#0B5871" stroke-width="24"
+        stroke-linecap="round"/>
+
+  <!-- Palm leaves -->
+  <g fill="#07536B">
+    <path d="M785 275 C735 235 683 239 645 264 C697 272 738 294 770 318 Z"/>
+    <path d="M795 270 C777 213 788 170 817 140 C826 191 821 232 807 270 Z"/>
+    <path d="M807 271 C841 208 895 189 946 201 C913 229 866 262 820 286 Z"/>
+    <path d="M806 285 C870 273 920 294 950 332 C899 325 856 316 815 305 Z"/>
+    <path d="M790 286 C748 335 735 377 746 418 C781 381 799 335 806 300 Z"/>
+    <path d="M788 270 C749 218 701 207 663 215 C698 241 742 264 781 285 Z"/>
+  </g>
+
+  <!-- Main wave -->
+  <path d="M175 480
+           C315 398 456 385 595 440
+           C735 495 850 535 1015 465
+           C925 555 805 594 675 574
+           C535 553 438 486 310 488
+           C256 488 215 493 175 480 Z"
+        fill="url(#wave1)"/>
+
+  <!-- Upper wave -->
+  <path d="M220 459
+           C350 397 470 393 592 441
+           C716 489 836 516 973 469
+           C866 535 746 534 624 496
+           C488 453 381 432 220 459 Z"
+        fill="url(#wave2)"/>
+
+  <!-- Lower wave -->
+  <path d="M275 508
+           C397 486 494 514 596 557
+           C700 601 807 602 909 563
+           C820 635 692 641 574 594
+           C458 548 380 526 275 508 Z"
+        fill="#0E7896"/>
+
+  <!-- Thin wave highlight -->
+  <path d="M287 477
+           C405 441 500 451 608 493
+           C728 540 820 543 918 510"
+        fill="none" stroke="#F7F3E9" stroke-width="10"
+        stroke-linecap="round"/>
+
+  <!-- Brand name -->
+  <text x="600" y="715" text-anchor="middle"
+        class="serif" font-size="112" font-weight="700"
+        letter-spacing="2" fill="#0A4058">VIVA SERENE</text>
+
+  <!-- Resort divider -->
+  <line x1="105" y1="780" x2="330" y2="780"
+        stroke="#0E7896" stroke-width="5"/>
+  <line x1="870" y1="780" x2="1095" y2="780"
+        stroke="#0E7896" stroke-width="5"/>
+
+  <text x="600" y="810" text-anchor="middle"
+        class="sans" font-size="54" font-weight="600"
+        letter-spacing="19" fill="#0A4058">RESORT</text>
+
+  <!-- System name -->
+  <text x="600" y="895" text-anchor="middle"
+        class="sans" font-size="43" font-weight="500"
+        letter-spacing="10" fill="#187D99">MANAGEMENT SYSTEM</text>
+
+  <!-- Tagline -->
+  <text x="600" y="1000" text-anchor="middle"
+        class="italic" font-size="34"
+        letter-spacing="1" fill="#12627B">
+    Smarter Operations. A More Serene Stay.
+  </text>
+</svg>
